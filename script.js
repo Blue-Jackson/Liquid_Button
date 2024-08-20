@@ -5,8 +5,8 @@ const LiquidButton = class LiquidButton {
     this.constructor.id++;
     this.xmlns = 'http://www.w3.org/2000/svg';
     this.tension = options.tension * 1 || 0.4;
-    this.width = options.width * 1 || 200;
-    this.height = options.height * 1 || 50;
+    this.width = options.width * 1 || 644;
+    this.height = options.height * 1 || 150;
     this.margin = options.margin || 40;
     this.hoverFactor = options.hoverFactor || -0.1;
     this.gap = options.gap || 5;
